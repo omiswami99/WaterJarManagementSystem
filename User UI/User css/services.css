@@ -1,0 +1,521 @@
+@font-face {
+    font-family: Outfit;
+    src: url("Outfit-Regular.ttf");
+}
+
+.back-img {
+    position: absolute;
+    top: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-image: url("E:\User UI\user pics\service-back.jpeg");
+    height: 1300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    width: 80px;
+    height: 75px;
+    left: 18px;
+    top: 0px;
+
+
+}
+
+.name {
+    position: absolute;
+    width: 280px;
+    height: 50px;
+    left: 73px;
+    top: 15px;
+}
+
+.header {
+    position: relative;
+    /* top: 0px; */
+    overflow: hidden;
+    background: rgb(183, 255, 252);
+    background: radial-gradient(circle, rgba(183, 255, 252, 1) 0%, rgba(255, 255, 255, 1) 100%);
+
+}
+
+.header a {
+    position: relative;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+    left: 400px;
+    color: #000000;
+    float: left;
+    text-align: center;
+    padding: 30px 45px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.header a:hover {
+    background-color: rgba(83, 179, 243, 0.8);
+    color: black;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+
+    position: absolute;
+    min-width: 160px;
+    background: rgba(201, 241, 247, 0.8);
+    border: 1.01007px solid #B5EE88;
+    box-shadow: 0px 4.04027px 4.04027px rgba(0, 0, 0, 0.25), 0px 4.04027px 4.04027px rgba(0, 0, 0, 0.25), 0px 4.04027px 4.04027px rgba(0, 0, 0, 0.25);
+    border-radius: 10.1007px;
+    z-index: 1;
+    left: 1300px;
+    top: -20px;
+}
+
+.dropdown-content a {
+    color: black;
+    font-family: 'Inika';
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(69, 195, 214, 0.8);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn {
+    position: absolute;
+    padding: 16px;
+    width: 60.6px;
+    height: 60.6px;
+    cursor: pointer;
+    left: 1339.35px;
+    top: -100px;
+}
+
+/* .cart {
+    position: absolute;
+    width: 79.8px;
+    height: 61.61px;
+    left: 900px;
+    top: 20px;
+} */
+
+.cartname {
+    position: absolute;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+    left: 1000px;
+    top: 30px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 102px;
+}
+
+
+.Web {
+
+    width: 800px;
+    border: white;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.274);
+    padding: auto;
+    margin: 20px;
+    position: relative;
+    left: 60px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.Web:hover {
+    position: relative;
+    top: -5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.Web p {
+    position: absolute;
+    font-family: 'Edu TAS Beginner', cursive;
+    left: 10px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+
+}
+
+.Web h1 {
+    position: relative;
+    font-family: 'Cormorant SC', serif;
+    left: 5px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.Web-img {
+    position: absolute;
+    left: 900px;
+    top: 100px;
+    height: 300px;
+    width: 643px;
+    border-radius: 50%;
+}
+
+.web-app {
+    width: 800px;
+    border: white;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.274);
+    padding: auto;
+    margin: 20px;
+    top: 50px;
+    position: relative;
+    left: 700px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.web-app:hover {
+    position: relative;
+    top: 55px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.web-app p {
+    position: absolute;
+    font-family: 'Edu TAS Beginner', cursive;
+    left: 10px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.web-app h1 {
+    position: relative;
+    font-family: 'Cormorant SC', serif;
+    left: 5px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.webapp-img {
+    position: absolute;
+    right: 800px;
+    top: 300px;
+    height: 300px;
+    width: 643px;
+    border-radius: 50%;
+}
+
+.android {
+    width: 800px;
+    border: white;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.274);
+    padding: auto;
+    margin: 20px;
+    top: 200px;
+    position: relative;
+    left: 60px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.android:hover {
+    position: relative;
+    top: 205px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.android p {
+    position: absolute;
+    font-family: 'Edu TAS Beginner', cursive;
+    left: 10px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.android h1 {
+    position: relative;
+    font-family: 'Cormorant SC', serif;
+    left: 5px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.android-img {
+    position: absolute;
+    left: 900px;
+    top: 600px;
+    height: 300px;
+    width: 643px;
+    border-radius: 50%;
+}
+
+.Desktop {
+    width: 800px;
+    border: white;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.274);
+    padding: auto;
+    margin: 20px;
+    top: 250px;
+    position: relative;
+    left: 700px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.Desktop:hover {
+    position: relative;
+    top: 255px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.Desktop p {
+    position: absolute;
+    font-family: 'Edu TAS Beginner', cursive;
+    left: 10px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.Desktop-img {
+    position: absolute;
+    right: 900px;
+    top: 860px;
+    height: 250px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+.Desktop h1 {
+    position: relative;
+    font-family: 'Cormorant SC', serif;
+    left: 5px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.api {
+    width: 800px;
+    border: white;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.274);
+    padding: auto;
+    margin: 20px;
+    position: relative;
+    left: 60px;
+    top: 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.api:hover {
+    position: relative;
+    top: 305px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.api p {
+    position: absolute;
+    font-family: 'Edu TAS Beginner', cursive;
+    left: 10px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.api h1 {
+    position: relative;
+    font-family: 'Cormorant SC', serif;
+    left: 5px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.api-img {
+    position: absolute;
+    left: 1000px;
+    top: 1080px;
+    height: 200px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.footer-distributed {
+    background-color: rgba(171, 235, 255, 1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    position: absolute;
+    top: 1200px;
+    padding: 55px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+.footer-distributed .footer-left {
+    width: 40%;
+}
+
+
+
+.footer-distributed h3 {
+    color: #000000;
+    font: normal 36px "Cookie", cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span {
+    color: #5383d3;
+}
+
+
+
+.footer-distributed .footer-links {
+    color: #000000;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #000000;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #5383d3;
+    text-decoration: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}

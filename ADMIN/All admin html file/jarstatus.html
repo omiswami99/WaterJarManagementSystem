@@ -1,0 +1,116 @@
+<html>
+
+<head>
+    <script lang="javascript">
+        function a() {
+            var a, b;
+            a = parseInt(f1.t1.value);
+            b = parseInt(f1.t2.value);
+            c = parseInt(f1.t3.value);
+            d = parseInt(f1.t4.value);
+            f1.t5.value = a + b + c + d;
+        }
+
+        function getselectvalue() {
+            varselectedvalue = document.getElementById("list").value;
+            console.log(selectedvalue);
+        }
+
+    </script>
+    <link rel="stylesheet" href="\waterjarmanagementsystem\admin\All admin css file\jarstatus.css" />
+</head>
+
+<body>
+    <img src="\waterjarmanagementsystem\admin\Admin pics\logo_part1.png" class="logo" />
+    <img src="\waterjarmanagementsystem\admin\Admin pics\logo_part2.png" class="name" />
+    <div class="navbar">
+        <nav>
+            <ul>
+                <a href="admin_home.html" class="nav-ele">Home</a>
+                <a href="cust.html" class="nav-ele">Customer Details</a>
+                <a href="admin_product.html" class="nav-ele">Products</a>
+                <a href="order.html" class="nav-ele">Order details</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Report</button>
+                    <div class="dropdown-content">
+                        <a href="jarstatus.html">Jar Status</a>
+                        <a href="balance jar.html">Balance Jar</a>
+                        <a href="payment report.html">Payment Report</a>
+                    </div>
+                </div>
+                <div class="side">
+                    <a href=""><img src="\waterjarmanagementsystem\admin\Admin pics\logout.png" alt="logout" weigth=40px height=25px></a>
+                </div>
+            </ul>
+        </nav>
+    </div>
+    <h1 style="position: relative; top: 100px;">
+        <center>Jar Status</center>
+    </h1>
+    <div style="margin-top:50px;margin-left: 2000px;">
+        <select id="list" onchange="getselectvalue();">
+            <option value="1"></option>
+            <option value="2">Jar Status</option>
+            <option value="3">Balance Jar</option>
+            <option value="4">Payment Report</option>
+            <option value="5">Daily Jar Distribution</option>
+        </select>
+    </div>
+
+    <div style="margin-left: 350px;margin-top: 120px;">
+        <b>
+            <font size="3" color="black">Total Empty Jar:</font>
+            <font size="2" color="red">(A)</font>
+        </b>
+    </div>
+    <div style="margin-left: 350px;margin-top: 30px;">
+        <b>
+            <font size="3" color="black">Total Filled Jar:</font>
+            <font size="2" color="blue">(B)</font>
+        </b>
+    </div>
+    <div style="margin-left: 350px;margin-top:30px;">
+        <b>
+            <font size="3" color="black">Total Jar Deposit:</font>
+            <font size="2" color="green">(C)</font>
+        </b>
+    </div>
+    <div style="margin-left: 350px;margin-top:30px;">
+        <b>
+            <font size="3" color="black">Total Balance Jar:</font>
+            <font size="2" color="orange">(D)</font>
+        </b>
+    </div>
+    <div style="margin-left: 350px;margin-top:30px;">
+        <b>
+            <font size="3" color="black">Total Jars:</font>
+            <font size="2" color="black">(T=</font>
+        </b></font>
+        <font size="2" color="red">A</font>+<font size="2" color="blue">B</font></b>+<font size="2" color="green">C
+        </font></b>+<font size="2" color="orange">D</font></b></font>
+        <font size="2" color="black">)</font></b>
+    </div>
+
+
+
+    <form id="f1">
+        <div style="margin-top: -212px;margin-left: 582px;">
+            <input type="text" id="t1" placeholder="" />
+        </div>
+        <div style="margin-top:26px ;margin-left:582px;">
+            <input type="text" id="t2" placeholder="" />
+        </div>
+        <div style="margin-top:26px ;margin-left:582px;">
+            <input type="text" id="t3" placeholder="" />
+        </div>
+        <div style="margin-top:26px ;margin-left:582px;">
+            <input type="text" id="t4" placeholder="" />
+        </div>
+        <div style="margin-top:26px ;margin-left:582px;">
+            <input type="text" id="t5" placeholder="Total/-" onclick="a()" />
+        </div>
+    </form>
+
+</body>
+
+</html>
