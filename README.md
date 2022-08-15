@@ -34,4 +34,6 @@ This path will take you to the home page.
 3. In right corner there is dropdown for login or register <br>
 Note: You don't need to import the database firstly when you try to register as a user then it will automatically creates database in **phpmyadmin**
 
-#TIS #ticktechitsolutions
+`#TIS`
+`#ticktechitsolutions`
+
