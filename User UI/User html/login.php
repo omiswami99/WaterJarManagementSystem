@@ -48,9 +48,9 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 	</div>
 
 	<img src="\waterjarmanagementsystem\User UI\user pics\Login_Image.png" class="Login_Body" />
-	<div class="main" style="margin-top:170px;"> 
+	<div class="main" > 
 		<p class="main_heading"> Login </p>
-		<div class="sub-main" style="height: 400px;margin-top: 0px;">
+		<div class="sub-main" style="height: 350px;">
 			<div class="form">
 				<form action="\waterjarmanagementsystem\user ui\user html\login.php" method="POST">
 					<div class="user">

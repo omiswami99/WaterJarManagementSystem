@@ -47,21 +47,22 @@ if(!isset($_SESSION['username'])){
     <form action="payment.php" method='GET'>
     <div class="cart-content">
         <div class="right-content">
-            <p class="prod-name">10 Litre Water Can</p>
-            <p class="desc">The 10 LTR pack is BIG enough to meet needs of a family, but LIGHT enough to carry, hold &
+            <p class="prod-name">20 Litre Water Can</p>
+            <p class="desc">The 20 LTR pack is BIG enough to meet needs of a family, but LIGHT enough to carry, hold &
                 pour.</p>
-            <p class="price">₹ 90/-Per can</p>
+            <p class="price">₹ 110/-Per can</p>
             <p class="inclusive">(Inclusive of all taxes)</p>
 
         </div>
-        <p class="quantity"><strong>Quantity:</strong> </p>
+        
+        <p class="quantity"><br><strong>Quantity:</strong> </p>
         <div class="counter">
             <span class="down" onClick='decreaseCount(event, this)'>-</span>
             <input type="text" value="1" name="qty">
             <span class="up" onClick='increaseCount(event, this)'>+</span>
         </div>
         <div class="prod-img">
-            <img src="\waterjarmanagementsystem\User UI\user pics\10 lit.png" class="ten-lit" />
+            <img src="\waterjarmanagementsystem\User UI\user pics\20lit.png" class="ten-lit" />
 
         </div>
     </div>
@@ -75,7 +76,7 @@ if(!isset($_SESSION['username'])){
 
         <br><br><br>
         <input type="submit" class="checkout1"></input>
-        <input type="hidden" name="rs" value="90"></input>
+        <input type="hidden" name="rs" value="110"></input>
         </a>
     </div></form>
     <div class="time">

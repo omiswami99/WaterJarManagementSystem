@@ -35,7 +35,9 @@ if ($rQueryCreateDB) {
 
     $queryCreate_orders_table = "CREATE TABLE `water_jar`.`orders` (
         `order_id` INT NOT NULL AUTO_INCREMENT, 
-        `total_price` INT, cust_id INT, 
+        `total_price` INT, 
+        `cust_id` INT, 
+        `dt` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
         PRIMARY KEY (`order_id`), 
         FOREIGN KEY(`cust_id`) REFERENCES `customers`(`cust_id`))
     ";

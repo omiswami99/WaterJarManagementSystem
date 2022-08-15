@@ -25,14 +25,14 @@
         <h1>10 Litters Water Jar</h1>
         <img src="\waterjarmanagementsystem\User UI\user pics\10 lit.png" class="prod1-img" />
         <p class="price"><strong>Price: &#x20b9; 90/- per jar</strong></p>
-        <a href="\waterjarmanagementsystem\User UI\user html\cart.php" style="height: 50px;width: 100px;padding-top: 15px;">Order Now</a>
+        <a href="\waterjarmanagementsystem\User UI\user html\cart.php" style="height: 50px;width: 100px;padding-top: 15px;margin-left: 200px;">Order Now</a>
         </a>
     </div>
     <div class="Product-1">
         <h1>20 Litters Water Jar</h1>
         <img src="\waterjarmanagementsystem\User UI\user pics\10 lit.png" class="prod1-img" />
         <p class="price"><strong>Price: &#x20b9; 110/- per jar</strong></p>
-        <a href="\waterjarmanagementsystem\User UI\user html\cart.php" style="height: 50px;width: 100px;padding-top: 15px;">Order Now</a>
+        <a href="\waterjarmanagementsystem\User UI\user html\cart2.php" style="height: 50px;width: 100px;padding-top: 15px;margin-left: 200px;">Order Now</a>
     </div>
 
     <div class="footer">

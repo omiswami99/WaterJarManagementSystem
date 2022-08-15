@@ -142,18 +142,7 @@ body {
 	position: relative;
 }
 
-.container {
-	position: absolute;
-	top: 170px;
-	background: rgba(255, 255, 255, 0.6);
-	max-width: 800px;
-	min-height: 500px;
-	left: 200px;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
-	padding: 0.5rem 1.5rem;
-}
+
 
 .left {
 	flex-basis: 50%;
