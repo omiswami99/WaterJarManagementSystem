@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 	if ($numRows > 0) {
 		// $showError1 = true;
-		echo "username already exists";
+		echo "<script>alert('username already exists');</script>";
 	} else {
 
 		if ($password == $cpassword) {
@@ -29,13 +29,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 			$result = mysqli_query($conn, $sql);
 
 			if ($result) {
-				echo "Not inserted";
+				echo "<script>alert('user created successfully');</script>";
 				header("location: login.php");
 			} else {
-				echo "inseertion error " . mysqli_error($conn);
+				echo "<script>alert('enable to create try after some time..');</script>";
 			}
 		} else {
-			echo "password doesn't matching";
+			echo "<script>alert('password doesn't matching');</script>";
 			// $showError = "password doesn't matching";
 		}
 	}
