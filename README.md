@@ -13,13 +13,7 @@
 ### Contributors:
 1. Onkar Bandu Swami
 2. Aditya Anand Wadkar
-3. Shivani Saha
-4. Kanishk Raj Singh Jhalla 
-5. Kanishk Tyagi
-6. Tanmay Yogesh Bonde
-7. Laxman Deora
-8. Aniket Kumar
-9. Priya Jawariya
+3. Tanmay Yogesh Bonde
 
 ### Tech Stack
 1. Front End: HTML, CSS, JAVASCRIPT
@@ -36,4 +30,3 @@ Note: You don't need to import the database firstly when you try to register as 
 
 `#TIS`
 `#ticktechitsolutions`
-
