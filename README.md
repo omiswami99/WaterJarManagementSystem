@@ -20,6 +20,9 @@
 2. Back End: PHP
 3. Database: MySQL.
 
+### Project Design on figma:
+https://www.figma.com/file/EFL7DDeycZSAGe1DICICsX/Water-jar-Management-System?node-id=0%3A1
+
 ### Steps to run the code:
 1. Clone the repository in **xampp/htdocs**
 2. In your browser enter following path:
